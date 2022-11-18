@@ -112,3 +112,9 @@
         background: whitesmoke;
     }
 }
+
+@media screen and (max-width:500px){
+    .phone_menu-icon {
+        font-size:30px;
+    }
+}
