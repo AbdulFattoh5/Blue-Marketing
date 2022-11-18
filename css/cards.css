@@ -1,0 +1,60 @@
+.cards {
+    margin-bottom: 48px;
+}
+
+.cards_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 255px;
+    height: 338px;
+    padding: 32px 18px 18px;
+}
+
+.card_h {
+    font-family: 'RB';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #2A86B1;
+}
+
+.card_icon{
+    color: #3FA5D5;
+    font-size: 100px;
+}
+
+.card:nth-child(3) .card_icon{
+    font-size: 110px;
+}
+
+.card:last-child .card_icon{
+    font-size: 110px;
+}
+
+.card_btn{
+    padding: 7px 64px;
+}
+
+@media screen and (max-width:1166px){
+    .cards_wrap{
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        width: 255px;
+        height: 338px;
+        flex-basis: 32%;
+    }
+}
